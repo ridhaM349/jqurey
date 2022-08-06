@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script >
+        $(document).ready(function(){
+        $("#hide").click(function(){
+        $("p").hide();
+        alert("are you sure");
+                });
+        });
+        $(document).ready(function(){
+            $("#show").click(function(){
+                $("p").show();
+                alert("are you sure");
+            });
+        });
+        $(document).ready(function(){
+            $("p").css("background-color","red");
+        });
+
+    </script>
+</head>
+<body>
+   <P>
+    <b> this is a litil poem :</b><br>
+    Twinkle, twinkle, little star<br/>  
+How I wonder what you are<br/>  
+Up above the world so high<br/>  
+Like a diamond in the sky<br/>  
+Twinkle, twinkle little star<br/>  
+How I wonder what you are  
+
+   </P> 
+   <button id="hide">hide</button>
+   <button id="show">show</button>
+
+</body>
+</html>
